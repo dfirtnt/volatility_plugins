@@ -1472,7 +1472,7 @@ class malprocfind(common.AbstractWindowsCommand):
                     'spath' : self.check_proc_susp_path(list_all[p])
                 }
         
-        print "\nUnusual process counts:"
+        print "\nUnusual process countess:"
         print "-----------------------"
         
         if system_count > 1: print "Warning! More than 1 system process! (%d) (!!!ABNORMAL!!!)" % system_count
